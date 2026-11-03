@@ -1,8 +1,8 @@
-# fibersdev plugins
+# fibers devtools
 
-A Claude Code plugin marketplace: small open-source plugins from the team behind [fibers](https://github.com/fibersdev), a board that shows which coding-agent sessions are running where.
+Claude Code plugins for any developer, from the team behind [fibers](https://github.com/fibersdev). You don't need fibers to use them.
 
-Add the marketplace once, then install whichever plugins you want.
+This is a plugin marketplace: add it once, then install whichever plugins you want.
 
 ## Plugins
 
@@ -15,18 +15,22 @@ Each plugin has a separate repository for its code, tests and issues. This repos
 In a Claude Code terminal session, add the marketplace, then install a plugin from it (storybook-preview-mcp-app here):
 
 ```
-/plugin marketplace add fibersdev/plugins
-/plugin install storybook-preview-mcp-app@fibersdev
+/plugin marketplace add fibersdev/devtools
+/plugin install storybook-preview-mcp-app@fibers-devtools
 ```
 
 Or from a shell:
 
 ```bash
-claude plugin marketplace add fibersdev/plugins
-claude plugin install storybook-preview-mcp-app@fibersdev
+claude plugin marketplace add fibersdev/devtools
+claude plugin install storybook-preview-mcp-app@fibers-devtools
 ```
 
-In the Claude desktop app (as of November 2026): click + next to the prompt box, then Plugins, Add marketplace with `fibersdev/plugins`, then pick a plugin.
+In the Claude desktop app (as of November 2026): click + next to the prompt box, then Plugins, Add marketplace with `fibersdev/devtools`, then pick a plugin.
+
+## Plugins for fibers itself
+
+Plugins that work with a fibers account, such as the board and session tools, come with fibers and are listed in a separate marketplace, not here.
 
 ## Adding a plugin
 

@@ -1,7 +1,10 @@
 {
-  "name": "fibersdev",
-  "description": "Open-source Claude Code plugins from the team behind fibers.",
-  "owner": { "name": "fibers", "url": "https://github.com/fibersdev" },
+  "name": "fibers-devtools",
+  "description": "Claude Code plugins for any developer, from the team behind fibers. You don't need fibers to use them.",
+  "owner": {
+    "name": "fibers",
+    "url": "https://github.com/fibersdev"
+  },
   "plugins": [
     {
       "name": "storybook-preview-mcp-app",
