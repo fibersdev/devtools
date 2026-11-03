@@ -1,0 +1,17 @@
+{
+  "name": "fibersdev",
+  "description": "Open-source Claude Code plugins from the team behind fibers.",
+  "owner": { "name": "fibers", "url": "https://github.com/fibersdev" },
+  "plugins": [
+    {
+      "name": "storybook-preview-mcp-app",
+      "description": "Show a Storybook story live in the chat, styled and clickable, as an MCP App.",
+      "source": {
+        "source": "github",
+        "repo": "fibersdev/storybook-preview-mcp-app"
+      },
+      "category": "development",
+      "homepage": "https://github.com/fibersdev/storybook-preview-mcp-app"
+    }
+  ]
+}
